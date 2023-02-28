@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishaan Vasudev</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aac1dbd473.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/ISHAAN3.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#work">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class=" fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class=" fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, <br> I'm <span>Ishaan Vasudev</span></h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------------ABOUT---------------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMAGE.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, ab
+                        dignissimos laboriosam
+                        quibusdam facilis eius tempora aperiam libero aliquid ea quasi nam possimus amet sunt quod
+                        officiis ullam, distinctio animi?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>LANGUAGES</span><br> Java, C/C++, HTML5, CSS3, JavaScript, NodeJS,
+                                Express, SQL, MongoDB.</li>
+                            <li><span>SPECIALITIES</span> <br>Object Oriented Programming, Web
+                                Development, Logic Programming
+                            </li>
+                            <li><span>SOFT SKILLS</span><br> Team work, Problem Solving, Time
+                                Management, Leadership</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>TRAINING AT NETMAX TECHNOLOGIES PVT. LTD. <br><i>(July/2022 -
+                                        Dec/2022)</i></span><br>I had the opportunity to
+                                undergo a six-month industrial training program at Netmax Technologies Pvt. Ltd. where I
+                                was able to enhance my skills in various technologies. Working with Nodejs was a
+                                highlight of my experience.I was able to gain experience in using Express,
+                                a popular Nodejs framework, which helped me create robust and scalable applications. I
+                                also had the opportunity to work with SQL databases, which further enhanced my
+                                understanding of database management systems.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.E. COMPUTER SCIENCE ENGINEERING <br><i>(08/2019 -
+                                        Present)</i></span><br>CHITKARA INSTITUTE OF ENGINERING
+                                AND TECHNOLOGY <br><span style="color: rgb(172, 221, 172);"><i>9.96 CGPA</i></span></li>
+                            <li><span>CLASS XII<br><i>(03/2018 - 03/2019)</i></span> <br>LORD MAHAVIR JAIN PUBLIC
+                                SCHOOL, AMBALA CANTT<br><span style="color: rgb(172, 221, 172);"><i>70
+                                        PERCENT</i></span></li>
+                            <li><span>CLASS X<br><i>(04/2017 - 03/2017)</i></span> <br>LORD MAHAVIR JAIN PUBLIC SCHOOL,
+                                AMBALA CANTT<br><span style="color: rgb(172, 221, 172);"><i>8.40 CGPA</i></span></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------------------------SERVICES----------------------------------------------------------- -->
+
+
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <h2>Web Developer</h2>
+                    <p>As a web developer, I provide custom web development services to businesses and individuals
+                        looking to establish a strong online presence. Whether you need a simple website to showcase
+                        your products or services, or a complex web application to manage your business operations. My
+                        goal is to create websites that are not only visually appealing but also user-friendly,
+                        responsive, and optimized for search engines.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Developer</h2>
+                    <p>As a Java developer, I offer custom software development services to businesses and individuals
+                        looking for reliable, scalable, and secure software solutions. I take pride in my ability to
+                        understand complex business processes and develop software solutions that streamline those
+                        processes and improve productivity.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ---------------------Porfolio-------------------------------------------------------------- -->
+
+
+    <div id="work">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="class-work">
+                    <img src="./images/cart.png" alt="#">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>Website is built using NodeJS as the backend technology, which ensures that the website
+                            is fast, secure, and reliable. For the frontend, I used HTML, CSS, and Bootstrap to
+                            create an elegant and user-friendly interface. To store
+                            all the important information, I used MySQL, which is one of the most trusted and
+                            widely used relational database management systems in the world.</p>
+                    </div>
+                </div>
+                <div class="class-work">
+                    <img src="./images/food.jpg" alt="#">
+                    <div class="layer">
+                        <h3>Food-Ordering Website</h3>
+                        <p>The platform was designed to provide you with a simple and seamless experience for ordering
+                            food online. Website was built using HTML, CSS, and JavaScript, which makes it easy to
+                            navigate and use. Whether you are on your desktop computer or using your mobile phone, you
+                            can easily place your order with just a few clicks.</p>
+                    </div>
+                </div>
+                <div class="class-work">
+                    <img src="./images/snake.jpg" alt="#">
+                    <div class="layer">
+                        <h3>Snake Game</h3>
+                        <p> A simple game that was built using HTML, CSS, and JavaScript, and was created
+                            as part of a college project. The game is easy to play and requires no prior knowledge or
+                            skills. All you need to do is control the snake and help it eat as many insects as possible,
+                            without crashing into the walls or its own tail. The game was designed to be addictive and
+                            challenging, and is suitable for players of all ages.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -------------------------------contact----------------------------------------------------------------------------------------------- -->
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>vsudevishaan@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9996869407</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ishaan-vasudev-0b906b231"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/imishaansharma"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="./images/resume.pdf" download class="btn btn2">Download Resume</a>
+
+            </div>
+            <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <span>©</span>  Ishaan Vasudev</p>
+    </div>
+</div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabName) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabName).classList.add("active-tab")
+        }
+    </script>
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0"
+            
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px"
+
+        }
+
+    </script>
+</body>
+
+</html>
